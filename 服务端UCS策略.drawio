@@ -1,1 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T11:35:44.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="uZA6Ml8jUqXLXnfvubP1" type="github"><diagram name="第 1 页" id="hiM7q3z67G3DkHhevFYv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-15T11:58:41.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TK70tw9MHo-smQ-AIOxz" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="hiM7q3z67G3DkHhevFYv">
+    <mxGraphModel dx="2049" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="210" as="sourcePoint" />
+            <mxPoint x="260" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-6" target="pBGFCwBOouqmx3fvD6GJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-6" value="【SOA】在请求中添加 Header 表明当前请求是 SOA 服务端 UCS 重定向请求，以避免死循环。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="836" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-11" target="pBGFCwBOouqmx3fvD6GJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-8" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pBGFCwBOouqmx3fvD6GJ-7">
+          <mxGeometry x="-0.175" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-11" target="pBGFCwBOouqmx3fvD6GJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-45" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pBGFCwBOouqmx3fvD6GJ-9">
+          <mxGeometry x="-0.6532" y="-2" relative="1" as="geometry">
+            <mxPoint x="-10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-11" value="【SOA】&lt;br&gt;根据 ucsClient.getCurrentRequestContext()&lt;br&gt;判断是否是经过 UCS 处理的请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pBGFCwBOouqmx3fvD6GJ-17">
+          <mxGeometry x="0.0204" relative="1" as="geometry">
+            <mxPoint x="260" y="780" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-14" target="pBGFCwBOouqmx3fvD6GJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pBGFCwBOouqmx3fvD6GJ-43">
+          <mxGeometry x="0.1619" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-49" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-14" target="pBGFCwBOouqmx3fvD6GJ-31">
+          <mxGeometry x="-0.75" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="600" />
+              <mxPoint x="510" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-14" value="【SOA】&lt;br&gt;当前请求是否是 SOA 服务端 UCS 重定向请求&lt;br&gt;&amp;nbsp; &amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-17" target="pBGFCwBOouqmx3fvD6GJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-17" value="【SOA】动态生成当前服务的 SOA 客户端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="836" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-26" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-41" target="pBGFCwBOouqmx3fvD6GJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="420" as="sourcePoint" />
+            <mxPoint x="260" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-29" target="pBGFCwBOouqmx3fvD6GJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-29" value="【SOA】把结果返回给客户端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-31" target="pBGFCwBOouqmx3fvD6GJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-31" value="【SOA】执行用户的业务代码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-36" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-37" value="【SOA】请求到达服务端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-51" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-41" target="pBGFCwBOouqmx3fvD6GJ-31">
+          <mxGeometry x="-0.8421" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-41" value="【SOA】当前服务是否开启了 UCS 重定向功能" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-50" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-42" target="pBGFCwBOouqmx3fvD6GJ-31">
+          <mxGeometry x="-0.8222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-42" value="【SOA】当前服务是否关联了 UCS 策略" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="700" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pBGFCwBOouqmx3fvD6GJ-44" target="pBGFCwBOouqmx3fvD6GJ-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="700" />
+              <mxPoint x="1130" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pBGFCwBOouqmx3fvD6GJ-44" value="【SOA】使用生成的客户端发起调用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="360" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
